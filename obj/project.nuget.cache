@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sdyXqP5o655FnI85L4f+BFEZftI1yP3pbG4z70H7RVKH/l2jfqmxZwHHQNEcO4F7IWRM6judMizkWKMRIUf6mQ==",
+  "dgSpecHash": "az6fFDdpMpc2jihZmjotLwJDDp4jiM5pJ5rBTke83EZ9gk2FjFQiXZgdgCjmdGnyYRYFsXeYUFQTOgVS9DyFjQ==",
   "success": true,
-  "projectFilePath": "C:\\xampp\\htdocs\\PEMROGRAMANFRONTEND\\test\\UTS\\Employees\\LatihanBlazor.csproj",
+  "projectFilePath": "C:\\xampp\\htdocs\\PEMROGRAMANFRONTEND\\test\\Tugas 5\\Employees\\LatihanBlazor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.9\\microsoft.aspnetcore.authorization.5.0.9.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.9\\microsoft.aspnetcore.components.5.0.9.nupkg.sha512",

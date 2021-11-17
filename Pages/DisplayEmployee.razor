@@ -1,5 +1,4 @@
-﻿<div class="card-deck">
-<div class="card m-3" style="min-width: 18rem; max-width:30.5%">
+﻿<div class="col-4 mt-4" style="min-width: 18rem; max-width:30.5%">
     <div class="card-header">
         <hr>
         <h3><p align="center" style="color: indigo;500">@Employee.EmployeeId</p></h3>
@@ -15,8 +14,9 @@
     @if (ShowFooter)
     {
         <div class="card-footer text-center">
-            <a href="@($"employeedetails/{Employee.EmployeeId}")" class="btn btn-outline-danger m-1" style="color: danger;"> <b>DETAIL EMPL0YEES</b></a>
+            <a href="@($"employeedetails/{Employee.EmployeeId}")" class="btn btn-outline-danger m-1" style="color: danger;"> <b>VIEW</b></a>
+            <a  class="btn btn-outline-primary m-1" style="color: primary;"> <b>EDIT</b></a>
+            <a  class="btn btn-outline-warning m-1" style="color: warning;"> <b>DELETE</b></a>
         </div>
     }
     </div>
-</div>
