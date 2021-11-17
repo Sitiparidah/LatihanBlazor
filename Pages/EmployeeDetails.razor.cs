@@ -26,20 +26,20 @@ namespace LatihanBlazor.Pages
             Coordinates = $"X = {e.ClientX}  Y = {e.ClientY}";
         }
 
-        protected string ButtonText  { get; set; } = "Hide Footer";
+        protected string ButtonText  { get; set; } = "HIDE F00TER";
         protected string CssClass { get; set; } = null;
 
         protected void Button_Click()
         {
-            if (ButtonText == "Hide Footer")
+            if (ButtonText == "HIDE F00TER")
             {
-                ButtonText = "Show Footer";
+                ButtonText = "SH0W F00TER";
                 CssClass = "HideFooter";
             }
             else
             {
                 CssClass = null;
-                ButtonText = "Hide Footer";
+                ButtonText = "HIDE F00TER";
             }
         }
 

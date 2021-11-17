@@ -1,6 +1,6 @@
 @page "/employeepage"
 
-<h3><b> <p align="center" style="color: indigo;500">EMPLOYEES LIST </p></b></h3>
+<h3><b> <p align="center" style="color: danger">EMPLOYEES LIST </p></b></h3>
 
 @if (Employees == null)
 {
@@ -11,7 +11,7 @@ else
     
     <div class="card-deck">
         @foreach (var emp in Employees)
-        {
+        {    
             <DisplayEmployee Employee="emp" ShowFooter="ShowFooter" OnEmployeeSelection="EmployeeSelectionChanged" />
         }
     </div>

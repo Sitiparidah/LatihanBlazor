@@ -1,17 +1,22 @@
-﻿
-<div class="col-4 mt-4" style="min-width: 20rem; max-width:30.5%;">
-    <div class="align-center">
+﻿<div class="card-deck">
+<div class="card m-3" style="min-width: 18rem; max-width:30.5%">
+    <div class="card-header">
         <hr>
         <h3><p align="center" style="color: indigo;500">@Employee.EmployeeId</p></h3>
         <hr>
-        <h3><p align="center" style="color: indigo;500">@Employee.FirstName @Employee.LastName</p></h3>    
+        <h3><p align="center" style="color: indigo;500">@Employee.FirstName @Employee.LastName</p></h3>  
+        <div class="card-footer text-center"></div>
+        <hr>  
     </div>
-    <img class="rounded mx-auto d-block imageThumbnail" src="@Employee.PhotoPath" />
+    
+    <h3> <div class="card-footer text-center"></div>
+        <img  class="rounded mx-auto d-block imageThumbnail" src="@Employee.PhotoPath" /></h3>
     <hr>
     @if (ShowFooter)
     {
         <div class="card-footer text-center">
-            <a href="@($"employeedetails/{Employee.EmployeeId}")" class="btn btn-warning m-1" style="color: indigo;"> <b>DETAIL EMPLOYEE</b></a>
+            <a href="@($"employeedetails/{Employee.EmployeeId}")" class="btn btn-outline-danger m-1" style="color: danger;"> <b>DETAIL EMPL0YEES</b></a>
         </div>
     }
+    </div>
 </div>
